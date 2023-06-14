@@ -1,5 +1,5 @@
 {
-    "name" : "Dr. Peterson's Full Telekill Arsenal",
+    "name" : "Dr. Peterson's Full Telekill Arsenal v1.6",
     "description" : "Many firearm enhancements, which ones done are up to Simon's decision.",
     "author" : "Cyrus",
     "version" : "1.1"
