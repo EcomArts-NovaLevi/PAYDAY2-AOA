@@ -29,7 +29,7 @@ self.supernova.AMMO_PICKUP = {20.00, 40.00}
 
 --Coach Gun
 self.coach.AMMO_MAX = 75
-self.coach.stats.reload = 25
+self.coach.stats.reload = 20
 self.coach.stats.damage = 1205
 self.coach.AMMO_PICKUP = {15.00, 30.00}
 
@@ -77,6 +77,10 @@ self.serbu.AMMO_MAX = 120
 self.serbu.stats.damage = 425
 self.serbu.stats.reload = 25
 self.serbu.fire_mode_data.fire_rate = 0.155
+
+--Std. MFG SKO-12
+self.sko12.AMMO_MAX = 240
+self.sko12.stats.damage = 305
 
 --Striker Street Sweeper
 self.striker.AMMO_MAX = 120

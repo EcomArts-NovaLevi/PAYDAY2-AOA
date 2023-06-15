@@ -5,7 +5,7 @@ function WeaponTweakData:init(tweak_data)
 
 --Akimbos
 --APS Stechkin
-self.x_stech.stats.damage = 105
+self.x_stech.stats.damage = 75
 self.x_stech.AMMO_MAX = 200
 self.x_stech.AMMO_PICKUP = {5.00, 10.00}
 self.x_stech.stats.reload = 20
@@ -16,14 +16,14 @@ self.x_b92fs.stats.damage = 75
 self.x_b92fs.stats.reload = 20
 
 --Beretta 93R
-self.x_beer.stats.damage = 60
+self.x_beer.stats.damage = 45
 self.x_beer.stats.reload = 20
 
 --CZ75
 self.x_czech.AMMO_PICKUP = {6.00, 12.00}
 self.x_czech.stats.reload = 20
 self.x_czech.stats.concealment = 27
-self.x_czech.stats.damage = 75
+self.x_czech.stats.damage = 60
 
 --Hk USP
 self.x_usp.fire_mode_data.fire_rate = 0.1333
@@ -54,4 +54,8 @@ self.x_basset.AMMO_MAX = 144
 --self.x_basset.stats.damage = 235
 self.x_basset.stats.reload = 20
 self.x_basset.AMMO_PICKUP = {30.00, 50.00}
+
+--Std. MFG SKO-12
+self.x_sko12.AMMO_MAX = 160
+self.x_sko12.stats.damage = 305
 end

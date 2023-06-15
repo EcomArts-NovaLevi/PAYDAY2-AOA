@@ -5,7 +5,7 @@ function WeaponTweakData:init(tweak_data)
 
 --HANDGUNS
 --APS Stechkin
-self.stech.stats.damage = 105
+self.stech.stats.damage = 75
 self.stech.AMMO_MAX = 200
 self.stech.AMMO_PICKUP = {5.00, 10.00}
 --self.stech.stats.reload = 20
@@ -16,7 +16,7 @@ self.b92fs.stats.damage = 75
 --self.b92fs.stats.reload = 20
 
 --Beretta 93R
-self.beer.stats.damage = 60
+self.beer.stats.damage = 45
 --self.beer.stats.reload = 20
 
 --Colt M1911
@@ -32,7 +32,7 @@ self.beer.stats.damage = 60
 self.czech.AMMO_PICKUP = {6.50, 12.50}
 --self.czech.stats.reload = 20
 self.czech.stats.concealment = 27
-self.czech.stats.damage = 75
+self.czech.stats.damage = 60
 
 --FN Five SeveN
 --self.lemming.stats.reload = 20
