@@ -26,7 +26,7 @@ self.beer.stats.damage = 45
 --self.colt_1911.stats.reload = 20
 
 --Colt SAA
---self.peacemaker.stats.reload = 30
+self.peacemaker.stats.reload = 25
 
 --CZ75
 self.czech.AMMO_PICKUP = {6.50, 12.50}
