@@ -80,7 +80,7 @@ self.winchester1874.AMMO_PICKUP = {10.00, 15.00}
 
 --Winchester Model 70
 self.model70.AMMO_MAX = 120
-self.model70.stats.concealment = 28
+--self.model70.stats.concealment = 28
 --self.model70.stats.reload = 20
 self.model70.AMMO_PICKUP = {10.00, 15.00}
 end
