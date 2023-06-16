@@ -13,19 +13,19 @@ self.china.stats.damage = 250
 self.flamethrower_mk2.stats.damage = 25
 --self.flamethrower_mk2.stats.reload = 20
 self.flamethrower_mk2.AMMO_PICKUP = {50.00, 100.00}
-self.flamethrower_mk2.AMMO_MAX = 3000
+self.flamethrower_mk2.AMMO_MAX = 900
 
 --Flamethrower (Tesla)
 self.system.stats.damage = 30
 --self.system.stats.reload = 20
 self.system.AMMO_PICKUP = {50.00, 100.00}
-self.system.AMMO_MAX = 3500
+self.system.AMMO_MAX = 700
 
 --M143 D Minigun
 self.m134.AMMO_MAX = 1000
 self.m134.stats.damage = 55
-self.m134.stats.spread = 80
-self.m134.stats.recoil = 80
+--self.m134.stats.spread = 80
+--self.m134.stats.recoil = 80
 self.m134.stats.reload = 20
 self.m134.AMMO_PICKUP = {50.00, 100.00}
 
@@ -50,13 +50,13 @@ self.gre_m79.AMMO_PICKUP = {10.00, 15.00}
 
 --Metal Storm 3GL
 self.ms3gl.AMMO_MAX = 36
---self.ms3gl.stats.reload = 20
-self.ms3gl.stats.damage = 350
+self.ms3gl.stats.reload = 15
+self.ms3gl.stats.damage = 175
 self.ms3gl.AMMO_PICKUP = {5.00, 8.00}
 
 --RPG-7
 self.rpg7.AMMO_MAX = 5
---self.rpg7.stats.reload = 20
+self.rpg7.stats.reload = 15
 self.rpg7.AMMO_PICKUP = {8.00, 10.00}
 
 --XM25
