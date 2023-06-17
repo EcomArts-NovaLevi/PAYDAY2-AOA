@@ -6,12 +6,12 @@ function WeaponTweakData:init(tweak_data)
 --SNIPER RIFLES
 
 --AI AT308
-self.awp.AMMO_MAX = 63
+self.awp.AMMO_MAX = 42
 --self.awp.stats.reload = 20
 self.awp.AMMO_PICKUP = {4, 10}
 
 --Barrett M95
-self.m95.AMMO_MAX = 50
+self.m95.AMMO_MAX = 30
 --self.m95.stats.reload = 20
 self.m95.AMMO_PICKUP = {4, 10}
 self.m95.fire_mode_data.fire_rate = 0.155
@@ -23,7 +23,7 @@ self.desertfox.stats.concealment = 30
 self.desertfox.fire_mode_data.fire_rate = 0.3
 
 --M91 PU Mosin Nagant
-self.mosin.AMMO_MAX = 125
+self.mosin.AMMO_MAX = 65
 --self.mosin.stats.reload = 20
 self.mosin.AMMO_PICKUP = {15.00, 30.00}
 
@@ -50,10 +50,10 @@ self.victor.AMMO_MAX = 80
 --Steyr Scout
 --self.scout.stats.reload = 20
 self.scout.stats.damage = 300
-self.scout.AMMO_MAX = 80
+self.scout.AMMO_MAX = 45
 
 --SVD Dragunov
-self.siltstone.AMMO_MAX = 120
+self.siltstone.AMMO_MAX = 60
 --self.siltstone.stats.concealment = 27
 --self.siltstone.stats.reload = 20
 self.siltstone.AMMO_PICKUP = {4.22, 4.86}
@@ -79,7 +79,7 @@ self.wa2000.AMMO_MAX = 80
 self.winchester1874.AMMO_PICKUP = {10.00, 15.00}
 
 --Winchester Model 70
-self.model70.AMMO_MAX = 120
+self.model70.AMMO_MAX = 80
 --self.model70.stats.concealment = 28
 --self.model70.stats.reload = 20
 self.model70.AMMO_PICKUP = {10.00, 15.00}
