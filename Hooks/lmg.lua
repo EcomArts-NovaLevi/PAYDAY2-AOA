@@ -50,9 +50,9 @@ self.mg42.stats.reload = 20
 self.mg42.stats.damage = 90
 
 --Ohio Ordinance HCAR
-self.hcar.AMMO_MAX = 300
-self.hcar.stats.spread = 75
-self.hcar.stats.recoil = 60
+--self.hcar.AMMO_MAX = 180
+--self.hcar.stats.spread = 75
+--self.hcar.stats.recoil = 60
 
 --RPK
 self.rpk.stats.spread = 80

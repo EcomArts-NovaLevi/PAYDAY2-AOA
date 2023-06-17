@@ -72,7 +72,7 @@ self.tti.fire_mode_data.fire_rate = 0.2
 --Walther WA2000 Model 1
 self.wa2000.AMMO_MAX = 80
 --self.wa2000.stats.reload = 20
-self.wa2000.stats.concealment = 26
+--self.wa2000.stats.concealment = 26
 
 --Winchester 1874
 --self.winchester1874.stats.reload = 20
