@@ -25,11 +25,6 @@ self.x_czech.stats.reload = 20
 self.x_czech.stats.concealment = 27
 self.x_czech.stats.damage = 60
 
---FN Five SeveN
-self.x_lemming.stats.reload = 20
-self.x_lemming.AMMO_MAX = 180
-self.x_lemming.AMMO_PICKUP = {6.00, 12.00}
-
 --Glock 18C
 self.x_glock_18c.stats.damage = 60
 self.x_glock_18c.stats.reload = 20
