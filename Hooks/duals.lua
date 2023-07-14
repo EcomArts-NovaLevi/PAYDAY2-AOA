@@ -26,8 +26,8 @@ self.x_czech.stats.concealment = 27
 self.x_czech.stats.damage = 60
 
 --Glock 18C
-self.x_glock_18c.stats.damage = 60
-self.x_glock_18c.stats.reload = 20
+self.x_g18c.stats.damage = 60
+self.x_g18c.stats.reload = 20
 
 --Hk USP
 self.x_usp.fire_mode_data.fire_rate = 0.1333
