@@ -22,7 +22,7 @@ self.asval.stats.damage = 95
 --Bofors AK5
 self.ak5.AMMO_MAX = 190
 self.ak5.stats.damage = 89
-self.ak5.stats.spread = 80
+--self.ak5.stats.spread = 80
 
 --Famas F1
 self.famas.CLIP_AMMO_MAX = 35
@@ -111,7 +111,7 @@ self.groza.stats.spread = 75
 --Sig Sauer 552
 self.s552.stats.damage = 80
 --self.s552.stats.reload = 20
-self.s552.stats.spread = 60
+--self.s552.stats.spread = 60
 
 --Steyr STG77 AUG
 self.aug.AMMO_MAX = 240

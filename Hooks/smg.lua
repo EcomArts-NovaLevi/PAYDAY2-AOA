@@ -19,19 +19,19 @@ self.m1928.AMMO_PICKUP = {4.22, 4.86}
 
 --Bren 805 (It's an AR but I'm going by in game categories)
 self.hajk.AMMO_MAX = 250
-self.hajk.stats.concealment = 30
+--self.hajk.stats.concealment = 30
 self.hajk.AMMO_PICKUP = {25.00, 30.00}
 
 --FN P90
 self.p90.AMMO_MAX = 405
 self.p90.stats.damage = 70
-self.p90.stats.recoil = 70
+--self.p90.stats.recoil = 70
 self.p90.can_shoot_through_shield = true
 
 --Hk MP5
 self.new_mp5.AMMO_MAX = 220
 self.new_mp5.stats.damage = 55
-self.new_mp5.stats.recoil = 70
+--self.new_mp5.stats.recoil = 70
 --self.new_mp5.stats.reload = 20
 
 --Hk MP7
@@ -40,21 +40,26 @@ self.mp7.stats.damage = 70
 
 --Hk UMP
 self.schakal.AMMO_MAX = 220
-self.schakal.stats.recoil = 70
+--self.schakal.stats.recoil = 70
 --self.schakal.stats.reload = 20
 
 --IMI Micro UZI
 self.baka.AMMO_MAX = 320
 self.baka.stats.damage = 90
-self.baka.stats.spread = 80
-self.baka.stats.recoil = 70
---self.baka.stats.reload = 20
+--self.baka.stats.spread = 80
+--self.baka.stats.recoil = 70
+self.baka.stats.reload = 15
 
 --IMI UZI
 self.uzi.AMMO_MAX = 285
 self.uzi.stats.damage = 89
 --self.uzi.stats.reload = 20
 self.uzi.AMMO_PICKUP = {15.00, 30.00}
+
+--Jacket's Piece
+self.cobray.AMMO_MAX = 220
+self.cobray.stats.damage = 90
+self.cobray.stats.reload = 15
 
 --Kalashnikov AK-74u Krinkov
 self.akmsu.AMMO_MAX = 250
@@ -72,8 +77,8 @@ self.m45.stats.recoil = 70
 --self.m45.stats.reload = 20
 
 --MP40
-self.erma.AMMO_MAX = 220
-self.erma.stats.recoil = 70
+self.erma.AMMO_MAX = 120
+--self.erma.stats.recoil = 70
 --self.erma.stats.reload = 20
 
 --MAC M11
@@ -82,13 +87,13 @@ self.mac10.stats.damage = 75
 --Minebea PM-9
 self.pm9.AMMO_MAX = 320
 self.pm9.stats.damage = 90
-self.pm9.stats.spread = 80
-self.pm9.stats.recoil = 70
+--self.pm9.stats.spread = 80
+--self.pm9.stats.recoil = 70
 --self.pm9.stats.reload = 20
 
 --Olympia Arms K23B
 self.olympic.stats.damage = 80
-self.olympic.stats.concealment = 30
+--self.olympic.stats.concealment = 30
 
 --PP19 Bizon
 self.coal.AMMO_MAX = 250
@@ -100,7 +105,7 @@ self.coal.AMMO_PICKUP = {25.00, 30.00}
 --Sig MP9
 self.mp9.stats.damage = 70
 --self.mp9.stats.reload = 20
-self.mp9.stats.concealment = 30
+--self.mp9.stats.concealment = 30
 
 --Sig Sauer MPX
 self.shepheard.AMMO_MAX = 150
@@ -110,7 +115,7 @@ self.shepheard.stats.damage = 70
 --SR-2M Veresk
 self.sr2.AMMO_MAX = 220
 self.sr2.stats.damage = 75
-self.sr2.stats.recoil = 70
+--self.sr2.stats.recoil = 70
 
 --Sterling L2A3
 self.sterling.AMMO_MAX = 150

@@ -39,6 +39,9 @@ self.czech.stats.damage = 60
 self.lemming.AMMO_MAX = 120
 self.lemming.AMMO_PICKUP = {6.00, 12.00}
 
+--Glock 18C
+self.glock_18c.stats.damage = 60
+
 --Hk P7M13
 self.legacy.fire_mode_data.fire_rate = 0.155
 self.legacy.AMMO_PICKUP = {5.00, 9.00}
