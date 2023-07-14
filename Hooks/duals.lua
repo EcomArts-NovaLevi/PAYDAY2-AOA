@@ -76,8 +76,8 @@ self.x_p90.stats.damage = 70
 self.x_p90.can_shoot_through_shield = true
 
 --Hk MP5
-self.x_new_mp5.AMMO_MAX = 220
-self.x_new_mp5.stats.damage = 55
+self.x_mp5.AMMO_MAX = 220
+self.x_mp5.stats.damage = 55
 --self.new_mp5.stats.recoil = 70
 --self.new_mp5.stats.reload = 20
 
