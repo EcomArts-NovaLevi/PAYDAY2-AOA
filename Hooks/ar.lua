@@ -48,7 +48,7 @@ self.scar.stats.damage = 105
 
 --Hk 416
 self.tecci.AMMO_MAX = 360
-self.tecci.stats.damage = 80
+self.tecci.stats.damage = 84
 --self.tecci.stats.reload = 20
 self.tecci.fire_mode_data.fire_rate = 0.055
 
@@ -65,8 +65,13 @@ self.g3.stats.damage = 115
 
 --Hk G36
 self.g36.AMMO_MAX = 300
-self.g36.stats.damage = 80
+self.g36.stats.damage = 85
 --self.g36.stats.concealment = 30
+
+--HS Produkt VHS K2
+self.vhs.AMMO_MAX = 250
+self.vhs.stats.damage = 85
+--self.vhs.stats.reload = 20
 
 --IMI Galil ARM
 self.galil.stats.damage = 95
@@ -74,7 +79,7 @@ self.galil.stats.damage = 95
 self.galil.AMMO_MAX = 185
 
 --IMI Tavor MTAR
-self.komodo.stats.damage = 80
+self.komodo.stats.damage = 89
 
 --Kalashnikov AK-15
 self.flint.AMMO_MAX = 150
@@ -122,9 +127,4 @@ self.aug.stats.damage = 87
 self.tkb.AMMO_MAX = 210
 self.tkb.stats.damage = 80
 --self.tkb.stats.reload = 20
-
---VHS K2
-self.vhs.AMMO_MAX = 250
-self.vhs.stats.damage = 80
---self.vhs.stats.reload = 20
 end
