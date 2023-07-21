@@ -6,7 +6,7 @@ function WeaponTweakData:init(tweak_data)
 --SPECIALIST WEAPONRY
 --EX41 China Lake
 self.china.AMMO_MAX = 15
-self.china.stats.reload = 20
+self.china.stats.reload = 14
 self.china.stats.damage = 250
 
 --Flamethrower
@@ -26,12 +26,12 @@ self.m134.AMMO_MAX = 1000
 self.m134.stats.damage = 55
 --self.m134.stats.spread = 80
 --self.m134.stats.recoil = 80
-self.m134.stats.reload = 20
+self.m134.stats.reload = 16
 self.m134.AMMO_PICKUP = {50.00, 100.00}
 
 --M202 Grim Reaper
 self.ray.AMMO_MAX = 12
-self.ray.stats.reload = 18
+self.ray.stats.reload = 15
 self.ray.AMMO_PICKUP = {8.00, 10.00}
 
 --M32
@@ -56,7 +56,7 @@ self.ms3gl.AMMO_PICKUP = {5.00, 8.00}
 
 --RPG-7
 self.rpg7.AMMO_MAX = 5
-self.rpg7.stats.reload = 20
+self.rpg7.stats.reload = 15
 self.rpg7.AMMO_PICKUP = {8.00, 10.00}
 
 --XM25
@@ -69,6 +69,6 @@ self.shuno.AMMO_MAX = 1000
 self.shuno.stats.damage = 65
 --self.shuno.stats.spread = 80
 --self.shuno.stats.recoil = 80
-self.shuno.stats.reload = 20
+self.shuno.stats.reload = 16
 self.shuno.AMMO_PICKUP = {50.00, 100.00}
 end
