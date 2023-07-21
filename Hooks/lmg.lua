@@ -27,7 +27,7 @@ self.kacchainsaw.stats.damage = 98
 
 --KSP 58
 self.par.AMMO_MAX = 600
-self.par.stats.damage = 108
+self.par.stats.damage = 107
 --self.par.stats.spread = 80
 --self.m249.stats.recoil = 70
 self.par.stats.reload = 19
@@ -36,7 +36,7 @@ self.par.stats.reload = 19
 --self.m249.stats.spread = 80
 --self.m249.stats.recoil = 70
 self.m249.stats.reload = 17
-self.m249.stats.damage = 105
+self.m249.stats.damage = 107
 
 --M60
 --self.m60.stats.spread = 80
@@ -48,7 +48,7 @@ self.m60.AMMO_MAX = 300
 --self.mg42.stats.spread = 80
 --self.mg42.stats.recoil = 70
 self.mg42.stats.reload = 17
-self.mg42.stats.damage = 90
+self.mg42.stats.damage = 85
 
 --Ohio Ordinance HCAR
 --self.hcar.AMMO_MAX = 180

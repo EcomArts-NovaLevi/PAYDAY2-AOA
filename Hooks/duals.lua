@@ -70,8 +70,8 @@ self.x_hajk.AMMO_MAX = 250
 self.x_hajk.AMMO_PICKUP = {25.00, 30.00}
 
 --FN P90
-self.x_p90.AMMO_MAX = 405
-self.x_p90.stats.damage = 70
+self.x_p90.AMMO_MAX = 300
+self.x_p90.stats.damage = 65
 --self.p90.stats.recoil = 70
 self.x_p90.can_shoot_through_shield = true
 
@@ -92,18 +92,18 @@ self.schakal.AMMO_MAX = 220
 
 --IMI Micro UZI
 self.x_baka.AMMO_MAX = 320
-self.x_baka.stats.damage = 90
+self.x_baka.stats.damage = 72
 self.x_baka.stats.reload = 20
 
 --IMI UZI
 self.x_uzi.AMMO_MAX = 285
-self.x_uzi.stats.damage = 89
+self.x_uzi.stats.damage = 75
 --self.uzi.stats.reload = 20
 self.x_uzi.AMMO_PICKUP = {15.00, 30.00}
 
 --Jacket's Piece
 self.x_cobray.AMMO_MAX = 280
-self.x_cobray.stats.damage = 90
+self.x_cobray.stats.damage = 74
 self.x_cobray.stats.reload = 15
 
 --Kalashnikov AK-74u Krinkov
@@ -131,11 +131,11 @@ self.x_mac10.stats.damage = 75
 
 --Minebea PM-9
 self.x_pm9.AMMO_MAX = 320
-self.x_pm9.stats.damage = 90
+self.x_pm9.stats.damage = 70
 self.x_pm9.stats.reload = 20
 
 --Olympia Arms K23B
-self.x_olympic.stats.damage = 80
+self.x_olympic.stats.damage = 76
 --self.olympic.stats.concealment = 30
 
 --PP19 Bizon
@@ -166,7 +166,7 @@ self.x_sterling.stats.reload = 20
 
 --Vz63 Skorpion
 self.x_scorpion.AMMO_MAX = 350
-self.x_scorpion.stats.damage = 90
+self.x_scorpion.stats.damage = 71
 
 
 --Akimbo Shotguns

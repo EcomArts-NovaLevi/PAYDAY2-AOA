@@ -64,12 +64,12 @@ self.g3.stats.damage = 115
 --self.g3.stats.reload = 20
 
 --Hk G36
-self.g36.AMMO_MAX = 300
+self.g36.AMMO_MAX = 200
 self.g36.stats.damage = 85
 --self.g36.stats.concealment = 30
 
 --HS Produkt VHS K2
-self.vhs.AMMO_MAX = 250
+self.vhs.AMMO_MAX = 200
 self.vhs.stats.damage = 85
 --self.vhs.stats.reload = 20
 
@@ -80,6 +80,7 @@ self.galil.AMMO_MAX = 185
 
 --IMI Tavor MTAR
 self.komodo.stats.damage = 89
+self.komodo.AMMO_MAX = 180
 
 --Kalashnikov AK-15
 self.flint.AMMO_MAX = 150
@@ -99,7 +100,7 @@ self.m16.AMMO_MAX = 120
 
 --M4A1
 self.new_m4.AMMO_MAX = 250
-self.new_m4.stats.damage = 80
+self.new_m4.stats.damage = 84
 --self.new_m4.stats.concealment = 30
 
 --Mk14 EBR

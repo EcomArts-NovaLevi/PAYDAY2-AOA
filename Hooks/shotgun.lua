@@ -80,7 +80,7 @@ self.serbu.fire_mode_data.fire_rate = 0.155
 
 --Std. MFG SKO-12
 self.sko12.AMMO_MAX = 240
-self.sko12.stats.damage = 155
+self.sko12.stats.damage = 150
 
 --Striker Street Sweeper
 self.striker.AMMO_MAX = 120

@@ -5,10 +5,10 @@ function WeaponTweakData:init(tweak_data)
 
 --SUBMACHINE GUNS
 --Ares FMG-9
-self.fmg9.AMMO_MAX = 320
-self.fmg9.stats.damage = 90
-self.fmg9.stats.spread = 80
-self.fmg9.stats.recoil = 70
+self.fmg9.AMMO_MAX = 220
+self.fmg9.stats.damage = 70
+--self.fmg9.stats.spread = 80
+--self.fmg9.stats.recoil = 70
 --self.fmg9.stats.reload = 20
 
 --Auto Ordinance Thompson M1928
@@ -23,8 +23,8 @@ self.hajk.AMMO_MAX = 250
 self.hajk.AMMO_PICKUP = {25.00, 30.00}
 
 --FN P90
-self.p90.AMMO_MAX = 405
-self.p90.stats.damage = 70
+self.p90.AMMO_MAX = 275
+self.p90.stats.damage = 65
 --self.p90.stats.recoil = 70
 self.p90.can_shoot_through_shield = true
 
@@ -44,31 +44,31 @@ self.schakal.AMMO_MAX = 220
 --self.schakal.stats.reload = 20
 
 --IMI Micro UZI
-self.baka.AMMO_MAX = 320
-self.baka.stats.damage = 90
+self.baka.AMMO_MAX = 220
+self.baka.stats.damage = 72
 --self.baka.stats.spread = 80
 --self.baka.stats.recoil = 70
 self.baka.stats.reload = 15
 
 --IMI UZI
-self.uzi.AMMO_MAX = 285
-self.uzi.stats.damage = 89
+self.uzi.AMMO_MAX = 180
+self.uzi.stats.damage = 75
 --self.uzi.stats.reload = 20
 self.uzi.AMMO_PICKUP = {15.00, 30.00}
 
 --Jacket's Piece
 self.cobray.AMMO_MAX = 220
-self.cobray.stats.damage = 90
+self.cobray.stats.damage = 74
 self.cobray.stats.reload = 15
 
 --Kalashnikov AK-74u Krinkov
 self.akmsu.AMMO_MAX = 250
 
 --Kriss Vector
-self.polymer.AMMO_MAX = 350
+self.polymer.AMMO_MAX = 280
 self.polymer.stats.recoil = 70
 --self.polymer.stats.reload = 20
-self.polymer.stats.damage = 75
+self.polymer.stats.damage = 70
 
 --m45 Carl Gustaf Swedish K
 self.m45.AMMO_MAX = 150
@@ -85,18 +85,18 @@ self.erma.AMMO_MAX = 120
 self.mac10.stats.damage = 75
 
 --Minebea PM-9
-self.pm9.AMMO_MAX = 320
-self.pm9.stats.damage = 90
+self.pm9.AMMO_MAX = 220
+self.pm9.stats.damage = 70
 --self.pm9.stats.spread = 80
 --self.pm9.stats.recoil = 70
 --self.pm9.stats.reload = 20
 
 --Olympia Arms K23B
-self.olympic.stats.damage = 80
+self.olympic.stats.damage = 76
 --self.olympic.stats.concealment = 30
 
 --PP19 Bizon
-self.coal.AMMO_MAX = 250
+self.coal.AMMO_MAX = 180
 self.coal.AMMO_PICKUP = {25.00, 30.00}
 
 --PP19 01 Vityaz
@@ -113,7 +113,7 @@ self.shepheard.stats.damage = 70
 --self.shepheard.stats.reload = 20
 
 --SR-2M Veresk
-self.sr2.AMMO_MAX = 220
+self.sr2.AMMO_MAX = 180
 self.sr2.stats.damage = 75
 --self.sr2.stats.recoil = 70
 
@@ -123,6 +123,6 @@ self.sterling.stats.damage = 60
 --self.sterling.stats.reload = 20
 
 --Vz63 Skorpion
-self.scorpion.AMMO_MAX = 350
-self.scorpion.stats.damage = 90
+self.scorpion.AMMO_MAX = 220
+self.scorpion.stats.damage = 71
 end
