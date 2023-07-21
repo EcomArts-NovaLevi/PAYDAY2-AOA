@@ -58,7 +58,7 @@ self.uzi.AMMO_PICKUP = {15.00, 30.00}
 
 --Jacket's Piece
 self.cobray.AMMO_MAX = 220
-self.cobray.stats.damage = 74
+self.cobray.stats.damage = 72
 self.cobray.stats.reload = 15
 
 --Kalashnikov AK-74u Krinkov
