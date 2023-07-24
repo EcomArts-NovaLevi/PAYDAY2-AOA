@@ -27,7 +27,7 @@ self.ak5.stats.damage = 89
 --Famas F1
 self.famas.CLIP_AMMO_MAX = 35
 --self.famas.stats.reload = 20
-self.famas.stats.damage = 80
+self.famas.stats.damage = 79
 
 --FN F2000
 self.corgi.CLIP_AMMO_MAX = 35
@@ -48,7 +48,7 @@ self.scar.stats.damage = 105
 
 --Hk 416
 self.tecci.AMMO_MAX = 360
-self.tecci.stats.damage = 84
+self.tecci.stats.damage = 78
 --self.tecci.stats.reload = 20
 self.tecci.fire_mode_data.fire_rate = 0.055
 
