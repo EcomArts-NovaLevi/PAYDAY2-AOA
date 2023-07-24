@@ -16,7 +16,7 @@ self.shak12.can_shoot_through_enemy = true
 self.shak12.can_shoot_through_wall = true
 
 --AS VAL
-self.asval.stats.damage = 89
+self.asval.stats.damage = 82
 --self.asval.stats.reload = 20
 
 --Bofors AK5
