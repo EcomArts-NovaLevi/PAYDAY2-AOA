@@ -29,6 +29,7 @@ self.mosin.AMMO_PICKUP = {15.00, 30.00}
 
 --Marlin 1895 SBL
 --self.sbl.stats.reload = 20
+self.sbl.stats.damage = 390
 self.sbl.AMMO_PICKUP = {10.00, 15.00}
 
 --QBU-88
@@ -41,6 +42,9 @@ self.qbu88.fire_mode_data.fire_rate = 0.2
 self.msr.AMMO_MAX = 80
 --self.msr.stats.reload = 20
 self.msr.stats.concealment = 26
+
+--Remington Model 700
+self.r700.stats.damage = 350
 
 --Springfield SAINT Victor AR-15
 --self.victor.stats.reload = 20
@@ -76,6 +80,7 @@ self.wa2000.AMMO_MAX = 80
 
 --Winchester 1874
 --self.winchester1874.stats.reload = 20
+self.winchester1874.stats.damage = 390
 self.winchester1874.AMMO_PICKUP = {10.00, 15.00}
 
 --Winchester Model 70

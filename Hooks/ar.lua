@@ -16,7 +16,7 @@ self.shak12.can_shoot_through_enemy = true
 self.shak12.can_shoot_through_wall = true
 
 --AS VAL
-self.asval.stats.damage = 95
+self.asval.stats.damage = 89
 --self.asval.stats.reload = 20
 
 --Bofors AK5
@@ -27,11 +27,11 @@ self.ak5.stats.damage = 89
 --Famas F1
 self.famas.CLIP_AMMO_MAX = 35
 --self.famas.stats.reload = 20
-self.famas.stats.damage = 79
+self.famas.stats.damage = 80
 
 --FN F2000
 self.corgi.CLIP_AMMO_MAX = 35
-self.corgi.stats.damage = 85
+self.corgi.stats.damage = 82
 
 --FN FAL
 self.fal.AMMO_MAX = 120
@@ -48,7 +48,7 @@ self.scar.stats.damage = 105
 
 --Hk 416
 self.tecci.AMMO_MAX = 360
-self.tecci.stats.damage = 78
+self.tecci.stats.damage = 79
 --self.tecci.stats.reload = 20
 self.tecci.fire_mode_data.fire_rate = 0.055
 
@@ -70,7 +70,7 @@ self.g36.stats.damage = 85
 
 --HS Produkt VHS K2
 self.vhs.AMMO_MAX = 200
-self.vhs.stats.damage = 85
+self.vhs.stats.damage = 84
 --self.vhs.stats.reload = 20
 
 --IMI Galil ARM
@@ -112,7 +112,7 @@ self.new_m14.AMMO_PICKUP = {14.22, 41.86}
 
 --OTs-14 Groza
 self.groza.AMMO_MAX = 150
-self.groza.stats.spread = 75
+self.groza.stats.spread = 76
 
 --Sig Sauer 552
 self.s552.stats.damage = 80
