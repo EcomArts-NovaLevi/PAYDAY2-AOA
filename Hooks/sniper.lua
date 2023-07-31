@@ -83,7 +83,7 @@ self.contender.AMMO_PICKUP = {4, 10}
 self.tti.AMMO_MAX = 140
 --self.tti.stats.reload = 20
 self.tti.stats.damage = 340
-self.tti.fire_mode_data.fire_rate = 0.2
+--self.tti.fire_mode_data.fire_rate = 0.2
 self.tti.AMMO_PICKUP = {4, 10}
 
 --Walther WA2000 Model 1
