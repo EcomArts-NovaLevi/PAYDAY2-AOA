@@ -54,6 +54,11 @@ self.ms3gl.stats.reload = 15
 self.ms3gl.stats.damage = 175
 self.ms3gl.AMMO_PICKUP = {5.00, 8.00}
 
+--Metal Storm Hailstorm Prototype
+self.hailstorm.damage = 59
+self.hailstorm.AMMO_MAX = 800
+self.hailstorm.AMMO_PICKUP = {50.00, 100.00}
+
 --RPG-7
 self.rpg7.AMMO_MAX = 5
 self.rpg7.stats.reload = 15
