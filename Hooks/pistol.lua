@@ -77,4 +77,8 @@ self.c96.stats.damage = 95
 --RSh 12
 self.rsh12.AMMO_MAX = 80
 self.rsh12.AMMO_PICKUP = {3.00, 7.00}
+
+--Walther PPK
+self.ppk.stats.damage = 77
+
 end
