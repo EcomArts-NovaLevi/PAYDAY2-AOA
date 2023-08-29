@@ -57,6 +57,10 @@ self.sparrow.AMMO_MAX = 72
 self.sparrow.fire_mode_data.fire_rate = 0.155
 self.sparrow.AMMO_PICKUP = {4.00, 7.50}
 
+--Korth NXA
+self.korth.stats.damage = 160
+self.korth.AMMO_PICKUP = {5.00, 7.50}
+
 --Luger P08
 self.breech.AMMO_PICKUP = {2.00, 3.80}
 --self.breech.stats.reload = 20
