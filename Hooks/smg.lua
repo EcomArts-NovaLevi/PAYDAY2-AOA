@@ -71,15 +71,17 @@ self.polymer.stats.recoil = 70
 self.polymer.stats.damage = 70
 
 --m45 Carl Gustaf Swedish K
-self.m45.AMMO_MAX = 150
-self.m45.stats.damage = 75
-self.m45.stats.recoil = 70
+self.m45.AMMO_MAX = 160
+--self.m45.stats.damage = 75
+--self.m45.stats.recoil = 70
 --self.m45.stats.reload = 20
+self.m45.AMMO_PICKUP = {5.00, 15.00}
 
 --MP40
 self.erma.AMMO_MAX = 120
 --self.erma.stats.recoil = 70
 --self.erma.stats.reload = 20
+self.erma.AMMO_PICKUP = {5.00, 15.00}
 
 --MAC M11
 self.mac10.stats.damage = 75

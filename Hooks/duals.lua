@@ -126,8 +126,8 @@ self.x_polymer.stats.damage = 75
 self.x_polymer.AMMO_PICKUP = {18.00, 24.00}
 
 --m45 Carl Gustaf Swedish K
-self.x_m45.AMMO_MAX = 250
-self.x_m45.stats.damage = 75
+self.x_m45.AMMO_MAX = 240
+--self.x_m45.stats.damage = 75
 self.x_m45.stats.recoil = 70
 --self.m45.stats.reload = 20
 self.x_m45.AMMO_PICKUP = {12.00, 24.00}
