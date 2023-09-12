@@ -9,7 +9,7 @@ self.shak12.AMMO_MAX = 160
 --self.shak12.stats.reload = 25
 self.shak12.stats.damage = 135
 --self.shak12.stats.spread = 80
---self.shak12.stats.recoil = 36
+self.shak12.stats.recoil = 20
 self.shak12.AMMO_PICKUP = {4.22, 14.86}
 self.shak12.can_shoot_through_shield = true
 self.shak12.can_shoot_through_enemy = true
@@ -25,8 +25,8 @@ self.ak5.stats.damage = 89
 --self.ak5.stats.spread = 80
 
 --Famas F1
-self.famas.CLIP_AMMO_MAX = 35
---self.famas.stats.reload = 20
+--self.famas.CLIP_AMMO_MAX = 35
+self.famas.stats.reload = 17
 self.famas.stats.damage = 80
 
 --FN F2000
@@ -37,13 +37,13 @@ self.corgi.stats.damage = 82
 self.fal.AMMO_MAX = 120
 --self.fal.stats.reload = 20
 self.fal.stats.damage = 125
-self.fal.stats.spread = 80
+self.fal.stats.spread = 70
 self.fal.AMMO_PICKUP = {4.22, 14.86}
 
 --Mk16 FN SCAR
 self.scar.AMMO_MAX = 140
 self.scar.AMMO_PICKUP = {4.22, 14.86}
-self.scar.stats.damage = 105
+self.scar.stats.damage = 100
 --self.scar.stats.reload = 20
 
 --Hk 416
@@ -112,7 +112,7 @@ self.new_m14.AMMO_PICKUP = {14.22, 41.86}
 
 --OTs-14 Groza
 self.groza.AMMO_MAX = 150
-self.groza.stats.spread = 76
+self.groza.stats.spread = 46
 
 --Sig Sauer 552
 self.s552.stats.damage = 80

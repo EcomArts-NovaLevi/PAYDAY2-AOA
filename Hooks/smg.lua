@@ -36,6 +36,7 @@ self.new_mp5.stats.damage = 55
 
 --Hk MP7
 self.mp7.stats.damage = 70
+self.mp7.can_shoot_through_enemy = true
 --self.mp7.stats.reload = 20
 
 --Hk UMP

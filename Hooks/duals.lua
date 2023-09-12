@@ -87,6 +87,7 @@ self.x_mp5.AMMO_PICKUP = {12.00, 24.00}
 
 --Hk MP7
 self.x_mp7.stats.damage = 70
+self.x_mp7.can_shoot_through_enemy = true
 --self.mp7.stats.reload = 20
 self.x_mp7.AMMO_PICKUP = {12.00, 24.00}
 
