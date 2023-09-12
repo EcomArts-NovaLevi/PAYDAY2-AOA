@@ -1,8 +1,8 @@
 {
-    "name" : "Dr. Peterson's Full Telekill Arsenal",
-    "description" : "Many firearm enhancements, which ones done are up to Dr. Simon Peterson's decision.",
+    "name" : "Argent Ordinance Armory",
+    "description" : "Many firearm buffs and nerfs.",
     "author" : "Emoticomm Arts",
-    "version" : "1.8.6"
+    "version" : "1.9.0"
     "blt_version" : 2,
     "hooks":[  
     {  
