@@ -30,7 +30,7 @@ self.p90.can_shoot_through_shield = true
 
 --Hk MP5
 self.new_mp5.AMMO_MAX = 220
-self.new_mp5.stats.damage = 55
+self.new_mp5.stats.damage = 70
 --self.new_mp5.stats.recoil = 70
 --self.new_mp5.stats.reload = 20
 
@@ -46,20 +46,20 @@ self.schakal.AMMO_MAX = 220
 
 --IMI Micro UZI
 self.baka.AMMO_MAX = 220
-self.baka.stats.damage = 72
+self.baka.stats.damage = 69
 --self.baka.stats.spread = 80
 --self.baka.stats.recoil = 70
 self.baka.stats.reload = 15
 
 --IMI UZI
 self.uzi.AMMO_MAX = 180
-self.uzi.stats.damage = 75
+self.uzi.stats.damage = 80
 --self.uzi.stats.reload = 20
 self.uzi.AMMO_PICKUP = {15.00, 30.00}
 
 --Jacket's Piece
 self.cobray.AMMO_MAX = 220
-self.cobray.stats.damage = 72
+self.cobray.stats.damage = 75
 self.cobray.stats.reload = 15
 
 --Kalashnikov AK-74u Krinkov
@@ -69,7 +69,7 @@ self.akmsu.AMMO_MAX = 250
 self.polymer.AMMO_MAX = 280
 self.polymer.stats.recoil = 70
 --self.polymer.stats.reload = 20
-self.polymer.stats.damage = 70
+self.polymer.stats.damage = 69
 
 --m45 Carl Gustaf Swedish K
 self.m45.AMMO_MAX = 160
@@ -85,7 +85,7 @@ self.erma.AMMO_MAX = 120
 self.erma.AMMO_PICKUP = {5.00, 15.00}
 
 --MAC M11
-self.mac10.stats.damage = 75
+self.mac10.stats.damage = 71
 
 --Minebea PM-9
 self.pm9.AMMO_MAX = 220
@@ -112,7 +112,7 @@ self.mp9.stats.damage = 70
 
 --Sig Sauer MPX
 self.shepheard.AMMO_MAX = 150
-self.shepheard.stats.damage = 70
+self.shepheard.stats.damage = 75
 --self.shepheard.stats.reload = 20
 
 --SR-2M Veresk
@@ -122,7 +122,7 @@ self.sr2.stats.damage = 75
 
 --Sterling L2A3
 self.sterling.AMMO_MAX = 150
-self.sterling.stats.damage = 60
+self.sterling.stats.damage = 78
 --self.sterling.stats.reload = 20
 
 --Vz63 Skorpion
