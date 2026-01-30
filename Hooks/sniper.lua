@@ -69,7 +69,7 @@ self.scout.AMMO_PICKUP = {4, 10}
 
 --SVD Dragunov
 self.siltstone.AMMO_MAX = 50
-self.siltstone.stats.damage = 200
+self.siltstone.stats.damage = 210
 --self.siltstone.stats.concealment = 27
 --self.siltstone.stats.reload = 20
 self.siltstone.AMMO_PICKUP = {4, 10}
