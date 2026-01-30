@@ -10,20 +10,20 @@ self.china.stats.reload = 14
 self.china.stats.damage = 250
 
 --Flamethrower
-self.flamethrower_mk2.stats.damage = 25
+self.flamethrower_mk2.stats.damage = 23
 --self.flamethrower_mk2.stats.reload = 20
-self.flamethrower_mk2.AMMO_PICKUP = {50.00, 100.00}
+self.flamethrower_mk2.AMMO_PICKUP = {25.00, 50.00}
 self.flamethrower_mk2.AMMO_MAX = 900
 
 --Flamethrower (Tesla)
-self.system.stats.damage = 30
+self.system.stats.damage = 23
 --self.system.stats.reload = 20
-self.system.AMMO_PICKUP = {50.00, 100.00}
+self.system.AMMO_PICKUP = {25.00, 50.00}
 self.system.AMMO_MAX = 700
 
 --M143 D Minigun
 self.m134.AMMO_MAX = 1000
-self.m134.stats.damage = 55
+self.m134.stats.damage = 54
 --self.m134.stats.spread = 80
 --self.m134.stats.recoil = 80
 self.m134.stats.reload = 16
@@ -55,9 +55,9 @@ self.ms3gl.stats.damage = 175
 self.ms3gl.AMMO_PICKUP = {5.00, 8.00}
 
 --Metal Storm Hailstorm Prototype
-self.hailstorm.damage = 59
-self.hailstorm.AMMO_MAX = 800
-self.hailstorm.AMMO_PICKUP = {50.00, 100.00}
+self.hailstorm.damage = 58
+self.hailstorm.AMMO_MAX = 720
+self.hailstorm.AMMO_PICKUP = {25.00, 50.00}
 
 --RPG-7
 self.rpg7.AMMO_MAX = 5
@@ -71,7 +71,7 @@ self.arbiter.stats.damage = 150
 
 --XM 5.56 Minigun
 self.shuno.AMMO_MAX = 1000
-self.shuno.stats.damage = 65
+self.shuno.stats.damage = 56
 --self.shuno.stats.spread = 80
 --self.shuno.stats.recoil = 80
 self.shuno.stats.reload = 16
