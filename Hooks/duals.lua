@@ -80,7 +80,7 @@ self.x_p90.AMMO_PICKUP = {12.00, 24.00}
 
 --Hk MP5
 self.x_mp5.AMMO_MAX = 220
-self.x_mp5.stats.damage = 55
+self.x_mp5.stats.damage = 70
 --self.new_mp5.stats.recoil = 70
 --self.new_mp5.stats.reload = 20
 self.x_mp5.AMMO_PICKUP = {12.00, 24.00}
@@ -116,7 +116,8 @@ self.x_cobray.stats.reload = 15
 self.x_cobray.AMMO_PICKUP = {12.00, 24.00}
 
 --Kalashnikov AK-74u Krinkov
-self.x_akmsu.AMMO_MAX = 350
+--self.x_akmsu.AMMO_MAX = 350
+self.x_akmsu.fire_mode_data.fire_rate = 0.107
 self.x_akmsu.AMMO_PICKUP = {12.00, 24.00}
 
 --Kriss Vector
